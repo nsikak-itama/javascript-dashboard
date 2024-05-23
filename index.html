@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="nav">
+
+
+
+      <ul class="navList">
+        <li>
+          <div class="section" id="first"><i class="fa-solid fa-apple-whole"></i>
+            <p>Brand name</p>
+          </div>
+        </li>
+        <li>
+          <div class="section"><i class="fa-solid fa-house home-icon"></i>
+            <p>Dashboard</p>
+          </div>
+        </li>
+        <li>
+          <div class="section"><i class="fa-solid fa-user"></i>
+            <p>Customers</p>
+          </div>
+        </li>
+        <li>
+          <div class="section"><i class="fa-solid fa-comments"></i>
+            <p> Message</p>
+          </div>
+        </li>
+        <li>
+          <div class="section"><i class="fa-solid fa-kit-medical"></i>
+            <p> Help</p>
+          </div>
+        </li>
+        <li>
+          <div class="section"><i class="fa-solid fa-gear"></i>
+            <p>Setting</p>
+          </div>
+        </li>
+        <li>
+          <div class="section"><i class="fa-solid fa-lock"></i>
+            <p>Password</p>
+          </div>
+        </li>
+        <li>
+          <div class="section"><i class="fa-solid fa-right-from-bracket"></i>
+            <p>Signout</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+
+    <div class="body">
+
+      <div class="nav2">
+        <img id="menu" style="cursor: pointer;" src="Images/ic--outline-menu (2).svg" alt="">
+
+        <input class="search" type="text" placeholder="search">
+      </div>
+
+
+      <div class="boxes">
+
+        <div class="cards">
+          <div class="card">
+
+            <div class="desc">
+
+              <div class="des">
+                <h1 id="OrderLength">0</h1>
+                <p>recent orders</p>
+              </div>
+
+              <i class="fa-solid fa-eye icons-eye"></i>
+ 
+             
+            </div>
+          </div>
+
+
+          <div class="card">
+
+            <div class="desc">
+
+              <div class="des">
+                <h1 id="prices">0</h1>
+                <p>Total price</p>
+              </div>
+
+              <i class="fa-solid fa-cart-shopping icons-shopping"></i>
+            </div>
+          </div>
+
+
+
+          <div class="card">
+
+            <div class="desc">
+
+              <div class="des">
+                <h1 id="CustNumb">0</h1>
+                <p>customer</p>
+              </div>
+
+
+
+
+
+              <i class="fa-brands fa-intercom icons-customer"></i>
+            </div>
+
+          </div>
+
+          <div class="card">
+
+            <div class="desc">
+
+              <div class="des">
+                <h1>0</h1>
+                <p>Earnings</p>
+
+              </div>
+              <i class="fa-solid fa-dollar-sign icon-earnings"></i>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+
+        <div class="big">
+          <div class="orders">
+
+            <div class="head">
+              <h2>recent orders</h2>
+              <button onclick="generateForm()">add order</button>
+            </div>
+
+
+
+            <table>
+
+              <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Payment</th>
+                <th>Status</th>
+              </tr>
+            </table>
+
+
+            <table class="table">
+              <h1 class="searchedMessage"></h1>
+            </table>
+
+
+            <h1 id="nothing"></h1>
+
+
+
+
+
+
+
+          </div>
+
+          <div class="customers">
+
+            <div class="header">
+              <h2>Recent Customers</h2>
+              <button onclick="generateForm2()">add Customer</button>
+            </div>
+
+
+
+            <div class="detail-div">
+              <div class="details">
+                <img src="Images/icons8-user-30.png" alt="">
+                <div>
+                  <p>David</p>
+                  <p>Italy</p>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+  </div>
+
+
+  <div class="formContainer">
+  </div>
+
+
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+
+  <script src="index.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
